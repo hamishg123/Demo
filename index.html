@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scotsburn Garden Center | Plants, Pots & Advice</title>
+  <meta name="description" content="Scotsburn Garden Center in Tain — quality plants, tools and expert gardening advice. Open weekly. Call 01862 892377 or email Kevin.bremner@hotmail.com">
+  <meta name="keywords" content="garden centre, plants, gardening, Scotsburn, Tain, shrubs, flowers, compost">
+  <link rel="canonical" href="https://yoursite.example/">
+
+  <!-- Open Graph / Social -->
+  <meta property="og:title" content="Scotsburn Garden Center | Plants, Pots & Advice">
+  <meta property="og:description" content="Quality plants and gardening advice in Tain. Call 01862 892377.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=1200">
+
+  <!-- LocalBusiness structured data (edit hours below if needed) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"GardenStore",
+    "name":"Scotsburn Garden Center",
+    "telephone":"+441862892377",
+    "email":"Kevin.bremner@hotmail.com",
+    "address":{
+      "@type":"PostalAddress",
+      "streetAddress":"Scotsburn Rd",
+      "addressLocality":"Tain",
+      "postalCode":"IV19 1PP",
+      "addressCountry":"GB"
+    },
+    "url":"https://yoursite.example/",
+    "openingHours":["Mo-Fr 09:00-17:30","Sa 09:00-16:00","Su 10:00-16:00"]
+  }
+  </script>
+
+  <style>
+    :root{
+      --green: #2f7a3e;
+      --accent: #8fbf7f;
+      --muted: #f6f7f2;
+      --text: #21312a;
+      --card-shadow: 0 6px 18px rgba(33,49,42,0.08);
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;color:var(--text);background:linear-gradient(180deg,#fbfefb,white);}
+    header{background:linear-gradient(90deg,var(--green),var(--accent));color:white;padding:28px 18px}
+    .wrap{max-width:1100px;margin:0 auto;padding:20px}
+    nav{display:flex;align-items:center;justify-content:space-between;gap:10px}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:56px;height:56px;background:rgba(255,255,255,0.12);display:inline-grid;place-items:center;border-radius:12px;font-weight:700}
+    .brand h1{font-size:20px;margin:0}
+    .navlinks{display:flex;gap:14px}
+    .navlinks a{color:white;text-decoration:none;font-weight:600}
+    .hero{display:grid;grid-template-columns:1fr 360px;gap:24px;align-items:center;margin-top:18px}
+    .hero .lead{background:rgba(255,255,255,0.95);padding:18px;border-radius:12px;box-shadow:var(--card-shadow)}
+    .cta{display:inline-block;padding:10px 14px;background:var(--green);color:white;border-radius:8px;text-decoration:none;font-weight:700}
+
+    main{padding:30px 0}
+    .grid{display:grid;gap:20px}
+    .two{grid-template-columns:repeat(2,1fr)}
+    .three{grid-template-columns:repeat(3,1fr)}
+
+    .card{background:white;padding:16px;border-radius:12px;box-shadow:var(--card-shadow)}
+
+    /* Gallery */
+    .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px}
+    .gallery img{width:100%;height:140px;object-fit:cover;border-radius:8px}
+
+    footer{padding:28px 0;background:#f1f6f1;margin-top:30px}
+
+    /* Responsive */
+    @media (max-width:900px){
+      .hero{grid-template-columns:1fr}
+      .brand h1{font-size:18px}
+      .logo{width:48px;height:48px}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <nav>
+        <div class="brand">
+          <div class="logo">SG</div>
+          <div>
+            <h1>Scotsburn Garden Center</h1>
+            <div style="font-size:13px;opacity:0.95">Scotsburn Rd, Tain — 01862 892377</div>
+          </div>
+        </div>
+        <div class="navlinks">
+          <a href="#home">Home</a>
+          <a href="#hours">Opening Hours</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+
+      <section class="hero">
+        <div class="lead card" id="home">
+          <h2 style="margin-top:0">Welcome to Scotsburn Garden Center</h2>
+          <p>Family-run garden centre in Tain offering a wide selection of plants, compost, tools and friendly gardening advice. Browse our gallery, check opening hours, or get in touch to plan your next garden project.</p>
+          <p style="margin:14px 0"><a class="cta" href="#contact">Get in touch</a></p>
+          <ul style="margin:0 0 0 18px;padding:0">
+            <li>Quality bedding & perennials</li>
+            <li>Seasonal shrubs & trees</li>
+            <li>Local compost & garden supplies</li>
+          </ul>
+        </div>
+        <div style="border-radius:12px;overflow:hidden">
+          <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=900&auto=format&fit=crop&q=60" alt="Plants on display at a garden centre" style="width:100%;height:100%;display:block;object-fit:cover;">
+        </div>
+      </section>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="hours" class="card" style="margin-bottom:18px">
+      <h3>Opening Hours</h3>
+      <p>Below are sample weekly hours — edit these to the exact times you want displayed.</p>
+      <div class="grid two" style="margin-top:12px">
+        <div>
+          <table style="width:100%;border-collapse:collapse">
+            <tbody>
+              <tr><td>Monday — Friday</td><td style="text-align:right">09:00 — 17:30</td></tr>
+              <tr><td>Saturday</td><td style="text-align:right">09:00 — 16:00</td></tr>
+              <tr><td>Sunday</td><td style="text-align:right">10:00 — 16:00</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <p style="margin:0"><strong>Phone:</strong> <a href="tel:+441862892377">01862 892377</a></p>
+          <p style="margin:0"><strong>Email:</strong> <a href="mailto:Kevin.bremner@hotmail.com">Kevin.bremner@hotmail.com</a></p>
+          <p style="margin:6px 0 0">Address:<br>Scotsburn Rd,<br>Tain IV19 1PP</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="card">
+      <h3>Gallery</h3>
+      <p>Sample images included — replace with your own by swapping the <code>src</code> values.</p>
+      <div class="gallery" style="margin-top:12px">
+        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=800&auto=format&fit=crop&q=60" alt="flower beds">
+        <img src="https://images.unsplash.com/photo-1523413651479-597eb2da0ad6?w=800&auto=format&fit=crop&q=60" alt="garden tools">
+        <img src="https://images.unsplash.com/photo-1501004318644-7d7b3e7e2c4b?w=800&auto=format&fit=crop&q=60" alt="potted plants">
+        <img src="https://images.unsplash.com/photo-1499346030926-9a72daac6c63?w=800&auto=format&fit=crop&q=60" alt="greenhouse">
+        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=800&auto=format&fit=crop&q=60" alt="herbs">
+        <img src="https://images.unsplash.com/photo-1501004318644-7d7b3e7e2c4b?w=800&auto=format&fit=crop&q=60" alt="plants for sale">
+      </div>
+    </section>
+
+    <section id="contact" class="card" style="margin-top:18px">
+      <h3>Contact & Location</h3>
+      <div class="grid two" style="align-items:start">
+        <div>
+          <p><strong>Scotsburn Garden Center</strong><br>Scotsburn Rd, Tain<br>IV19 1PP</p>
+          <p><strong>Phone:</strong> <a href="tel:+441862892377">01862 892377</a><br>
+          <strong>Email:</strong> <a href="mailto:Kevin.bremner@hotmail.com">Kevin.bremner@hotmail.com</a></p>
+
+          <p>If you'd like a contact form on the site that submits to an email or service, tell me and I can add a simple working form (requires a server or a form service like Formspree).</p>
+        </div>
+
+        <div>
+          <div style="border-radius:8px;overflow:hidden;box-shadow:var(--card-shadow)">
+            <iframe title="Map" src="https://www.google.com/maps?q=Scotsburn+Rd,+Tain+IV19+1PP&output=embed" style="width:100%;height:260px;border:0;display:block"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap" style="display:flex;justify-content:space-between;align-items:center;gap:12px">
+      <div>
+        <strong>Scotsburn Garden Center</strong><br>
+        Scotsburn Rd, Tain — 01862 892377
+      </div>
+      <div style="font-size:13px;color:#5a6a57">Designed for web — editable HTML/CSS. SEO basics included (meta tags + JSON-LD).</div>
+    </div>
+  </footer>
+
+  <script>
+    // Small script: smooth scroll for nav links
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click',function(e){
+        e.preventDefault();
+        const id = this.getAttribute('href').slice(1);
+        const el = document.getElementById(id);
+        if(el) el.scrollIntoView({behavior:'smooth',block:'start'});
+      });
+    });
+  </script>
+</body>
+</html>
